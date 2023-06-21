@@ -93,7 +93,7 @@ processFragKeys = {'133':'133',
 smpData = {}
 #One iteration gives one plot for each MNKey
 for MNKey in ['M1','M2','M3','M4']:
-    with open('Met_' + MNKey + 'Results.json') as f:
+    with open(str(cwd) + '/Read Process CSV/' + MNKey + 'Results.json') as f:
         sampleOutputDict = json.load(f)
         
     #If standard is true, add predicted data for that peak; because we aren't employing the standardization process, no need to do here. 
