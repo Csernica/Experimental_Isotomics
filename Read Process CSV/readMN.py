@@ -77,5 +77,5 @@ for experiment in toRun:
 
     sampleOutputDict = DataAnalyzerWithPeakInteg.folderOutputToDict(rtnAllFilesDF)
 
-    with open(folderPath + 'Results.json', 'w', encoding='utf-8') as f:
+    with open(str(cwd) + '/Read Process CSV/' + experiment + 'Results.json', 'w', encoding='utf-8') as f:
         json.dump(sampleOutputDict, f, ensure_ascii=False, indent=4)
