@@ -200,6 +200,9 @@ for MNIdx, MNKey in enumerate(['M1','M2','M3','M4']):
     nTot = siteObs[MNKey]['Total Isotopologues']
     sizes = [nObs, nPosObs - nObs, nTot - nPosObs]
 
+    print(MNKey)
+    print(sizes)
+
     def actualValues(val):
         a  = np.round(val/100.*nTot, 0)
         return int(a)

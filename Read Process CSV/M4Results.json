@@ -9,7 +9,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0007226783780048312
+                "ShotNoise": 0.0006875220374485291
             },
             "13C-13C": {
                 "Average": 0.07110164027070555,
@@ -19,7 +19,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.000611082448619156
+                "ShotNoise": 0.0005690731701214408
             },
             "13C-15N": {
                 "Average": 0.014987433120572408,
@@ -29,7 +29,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0012956151145394907
+                "ShotNoise": 0.0012763389201011072
             },
             "13C-18O": {
                 "Average": 0.006951005885314484,
@@ -39,7 +39,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0018950802307695395
+                "ShotNoise": 0.001881954195775023
             },
             "18O": {
                 "Average": 0.4534460087331112,
@@ -49,7 +49,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0002818797100210033
+                "ShotNoise": 0.00017285451936009007
             },
             "Unsub": {
                 "Average": 0.40368541943804453,
@@ -59,7 +59,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00029359022563431113
+                "ShotNoise": 0.00019135760901957502
             }
         },
         "104": {
@@ -71,7 +71,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0012530948063635076
+                "ShotNoise": 0.0012474939026042788
             },
             "13C-13C": {
                 "Average": 0.006560699042796227,
@@ -81,7 +81,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.001036522071513568
+                "ShotNoise": 0.0010297438749681568
             },
             "13C-13C-34S": {
                 "Average": 0.0782425652961435,
@@ -91,7 +91,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0003106516033148351
+                "ShotNoise": 0.0002872261512149168
             },
             "13C-34S": {
                 "Average": 0.056329467847331297,
@@ -101,7 +101,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00036237729535038097
+                "ShotNoise": 0.000342508025431688
             },
             "13C-34S-D": {
                 "Average": 0.0061694698597247865,
@@ -111,7 +111,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0010686803242614886
+                "ShotNoise": 0.0010621073762870198
             },
             "34S": {
                 "Average": 0.45796745252073207,
@@ -121,7 +121,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00014931004108920337
+                "ShotNoise": 9.103807813061612e-05
             },
             "34S-15N": {
                 "Average": 0.004077702923002724,
@@ -131,7 +131,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0013131269329854265
+                "ShotNoise": 0.001307783156884722
             },
             "36S": {
                 "Average": 0.37723915098201644,
@@ -141,7 +141,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00015989525546092933
+                "ShotNoise": 0.0001075217932261754
             },
             "Unsub": {
                 "Average": 0.0089337614575209,
@@ -151,7 +151,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0008892921932195459
+                "ShotNoise": 0.0008813824642122662
             }
         },
         "133": {
@@ -163,7 +163,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0010674257348918309
+                "ShotNoise": 0.0010569821950258637
             },
             "13C-13C-34S": {
                 "Average": 0.12103588150258898,
@@ -173,7 +173,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.000320533098633318
+                "ShotNoise": 0.0002838223536154336
             },
             "13C-34S": {
                 "Average": 0.022370819919757954,
@@ -183,7 +183,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0007120087998849308
+                "ShotNoise": 0.0006962544019292855
             },
             "13C-34S-D": {
                 "Average": 0.005919801811251361,
@@ -193,7 +193,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0013729326326631455
+                "ShotNoise": 0.0013648288079182985
             },
             "18O-18O": {
                 "Average": 0.008249212109551004,
@@ -203,7 +203,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.001164397653595738
+                "ShotNoise": 0.001154831397560522
             },
             "18O-34S": {
                 "Average": 0.45168554287270907,
@@ -213,7 +213,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00018882020944566635
+                "ShotNoise": 0.00011604625193186195
             },
             "36S": {
                 "Average": 0.38090779215909804,
@@ -223,7 +223,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00020053945546358453
+                "ShotNoise": 0.00013427484608056293
             }
         },
         "56": {
@@ -235,7 +235,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00029228944225556306
+                "ShotNoise": 0.0002656411241890026
             },
             "13C-13C": {
                 "Average": 0.04393015121886274,
@@ -245,7 +245,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00042035425663961376
+                "ShotNoise": 0.0004022807351606229
             },
             "13C-15N": {
                 "Average": 0.012703148840496344,
@@ -255,7 +255,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0007700298034355362
+                "ShotNoise": 0.0007603144000907121
             },
             "13C-D": {
                 "Average": 0.0029733019299053175,
@@ -265,7 +265,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0015840664993770578
+                "ShotNoise": 0.0015793665702600569
             },
             "15N": {
                 "Average": 0.008409877422050275,
@@ -275,7 +275,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0009444146766004581
+                "ShotNoise": 0.0009365101014856579
             },
             "Unsub": {
                 "Average": 0.836675425950504,
@@ -285,7 +285,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00012774509868469655
+                "ShotNoise": 3.809066872991117e-05
             }
         },
         "61": {
@@ -297,7 +297,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0013951560049232843
+                "ShotNoise": 0.0013818190590598565
             },
             "13C-34S": {
                 "Average": 0.08360724560938043,
@@ -307,7 +307,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0004899055555892417
+                "ShotNoise": 0.00045052312627075094
             },
             "34S": {
                 "Average": 0.5124635171480778,
@@ -317,7 +317,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00023377978971692858
+                "ShotNoise": 0.00013272763083721042
             },
             "36S": {
                 "Average": 0.3943199805060833,
@@ -327,7 +327,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00025589337683606413
+                "ShotNoise": 0.0001686566162832973
             }
         },
         "74High": {
@@ -339,7 +339,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0011732395807863485
+                "ShotNoise": 0.0010907054573034967
             },
             "13C-13C": {
                 "Average": 0.03264978341165908,
@@ -349,7 +349,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0017190936184629053
+                "ShotNoise": 0.0016638600150576935
             },
             "18O": {
                 "Average": 0.19952340016635234,
@@ -359,7 +359,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0007494971942042644
+                "ShotNoise": 0.0006122853295547495
             },
             "Unsub": {
                 "Average": 0.6949796348740213,
@@ -369,7 +369,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0004773297602876074
+                "ShotNoise": 0.00020246229457389855
             }
         },
         "74Low": {
@@ -381,7 +381,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0015982218338630998
+                "ShotNoise": 0.001484388771920296
             },
             "18O": {
                 "Average": 0.474784461146657,
@@ -391,7 +391,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0007382301436152735
+                "ShotNoise": 0.0004405459577711991
             },
             "Unsub": {
                 "Average": 0.45145913929055403,
@@ -401,7 +401,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.000751059001748344
+                "ShotNoise": 0.00046172136627357284
             }
         },
         "87": {
@@ -413,7 +413,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0010669534618946781
+                "ShotNoise": 0.0009962544623311924
             },
             "13C-34S": {
                 "Average": 0.06767527614928155,
@@ -423,7 +423,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0010728977651401203
+                "ShotNoise": 0.0010026180121603836
             },
             "34S": {
                 "Average": 0.4737040516866886,
@@ -433,7 +433,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00047632603131562783
+                "ShotNoise": 0.00028463968798231754
             },
             "36S": {
                 "Average": 0.39014852599283234,
@@ -443,7 +443,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0005097676758080943
+                "ShotNoise": 0.0003376334508969172
             }
         },
         "full": {
@@ -455,7 +455,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0008834855105229845
+                "ShotNoise": 0.0007754189304926747
             },
             "18O-34S": {
                 "Average": 0.4809774964233902,
@@ -465,7 +465,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0005253581903015021
+                "ShotNoise": 0.0003110130199512782
             },
             "36S": {
                 "Average": 0.38925446569742733,
@@ -475,7 +475,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0005655873585593597
+                "ShotNoise": 0.0003749892406783144
             }
         }
     },
@@ -489,7 +489,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0006847912825323109
+                "ShotNoise": 0.0006484782378520375
             },
             "13C-13C": {
                 "Average": 0.07065295723721698,
@@ -499,7 +499,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0006056572617909928
+                "ShotNoise": 0.0005642744395199905
             },
             "13C-15N": {
                 "Average": 0.014952051646685586,
@@ -509,7 +509,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0012818946908321161
+                "ShotNoise": 0.001262869321315156
             },
             "13C-18O": {
                 "Average": 0.007289567569561179,
@@ -519,7 +519,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.001828861863287087
+                "ShotNoise": 0.0018155772193220955
             },
             "18O": {
                 "Average": 0.45243118133607485,
@@ -529,7 +529,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00027877121190843153
+                "ShotNoise": 0.0001711674996146524
             },
             "Unsub": {
                 "Average": 0.40024649798738776,
@@ -539,7 +539,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0002910149085817728
+                "ShotNoise": 0.0001904589230051822
             }
         },
         "104": {
@@ -551,7 +551,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0012377799414983455
+                "ShotNoise": 0.0012321304027157714
             },
             "13C-13C": {
                 "Average": 0.0068411460357532495,
@@ -561,7 +561,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.001013319244304968
+                "ShotNoise": 0.0010064104712291463
             },
             "13C-13C-34S": {
                 "Average": 0.08179207438716342,
@@ -571,7 +571,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0003037769167312591
+                "ShotNoise": 0.0002798688279527245
             },
             "13C-34S": {
                 "Average": 0.057339481093520106,
@@ -581,7 +581,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00035868002217934533
+                "ShotNoise": 0.0003386701995030815
             },
             "13C-34S-D": {
                 "Average": 0.006280821143474698,
@@ -591,7 +591,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0010572848881773478
+                "ShotNoise": 0.0010506652561539608
             },
             "34S": {
                 "Average": 0.45524882428881247,
@@ -601,7 +601,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00014933914647481667
+                "ShotNoise": 9.136917637096284e-05
             },
             "34S-15N": {
                 "Average": 0.004054621241770635,
@@ -611,7 +611,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0013144870741467025
+                "ShotNoise": 0.0013091685964075218
             },
             "36S": {
                 "Average": 0.37491606447570514,
@@ -621,7 +621,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.000159957973691443
+                "ShotNoise": 0.0001078549909292738
             },
             "Unsub": {
                 "Average": 0.008952546242868249,
@@ -631,7 +631,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0008867407609650269
+                "ShotNoise": 0.0008788374837691643
             }
         },
         "133": {
@@ -643,7 +643,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0010455918782332268
+                "ShotNoise": 0.0010350478630690874
             },
             "13C-13C-34S": {
                 "Average": 0.12518783800311417,
@@ -653,7 +653,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00031398493033897145
+                "ShotNoise": 0.00027685418453865973
             },
             "13C-34S": {
                 "Average": 0.022702702454172174,
@@ -663,7 +663,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0007029366622136946
+                "ShotNoise": 0.000687154752658182
             },
             "13C-34S-D": {
                 "Average": 0.0059669626499474744,
@@ -673,7 +673,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0013598192315903
+                "ShotNoise": 0.001351728539914517
             },
             "18O-18O": {
                 "Average": 0.008165669170428344,
@@ -683,7 +683,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0011637240718370492
+                "ShotNoise": 0.001154259684122078
             },
             "18O-34S": {
                 "Average": 0.4492493300150326,
@@ -693,7 +693,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00018811229471642132
+                "ShotNoise": 0.00011596524669087399
             },
             "36S": {
                 "Average": 0.3785926953539797,
@@ -703,7 +703,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0001998563346280417
+                "ShotNoise": 0.00013417994450570214
             }
         },
         "56": {
@@ -715,7 +715,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00027807573556604766
+                "ShotNoise": 0.0002518056148267969
             },
             "13C-13C": {
                 "Average": 0.043575284238188954,
@@ -725,7 +725,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0004083131115482529
+                "ShotNoise": 0.00039089583012603073
             },
             "13C-15N": {
                 "Average": 0.012600763436248743,
@@ -735,7 +735,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0007480818279809644
+                "ShotNoise": 0.0007387194151388225
             },
             "13C-D": {
                 "Average": 0.00295078199771402,
@@ -745,7 +745,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0015389022922044503
+                "ShotNoise": 0.0015343729070535015
             },
             "15N": {
                 "Average": 0.008772015607313078,
@@ -755,7 +755,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0008949027884706805
+                "ShotNoise": 0.0008870912882901637
             },
             "Unsub": {
                 "Average": 0.8331897093568237,
@@ -765,7 +765,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00012374668140325299
+                "ShotNoise": 3.732551548232036e-05
             }
         },
         "61": {
@@ -777,7 +777,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.001269808305882554
+                "ShotNoise": 0.0012563543074135051
             },
             "13C-34S": {
                 "Average": 0.08876464871219743,
@@ -787,7 +787,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00045654664085801135
+                "ShotNoise": 0.0004176695432358935
             },
             "34S": {
                 "Average": 0.5090863423718891,
@@ -797,7 +797,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.000224438588321255
+                "ShotNoise": 0.0001280066091878999
             },
             "36S": {
                 "Average": 0.39149367552079817,
@@ -807,7 +807,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0002457682798773366
+                "ShotNoise": 0.00016252710377660337
             }
         },
         "74High": {
@@ -819,7 +819,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0011301565359772797
+                "ShotNoise": 0.0010471259719194808
             },
             "13C-13C": {
                 "Average": 0.03256185741931974,
@@ -829,7 +829,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.001693208579488415
+                "ShotNoise": 0.0016389552461581521
             },
             "18O": {
                 "Average": 0.19870001786075597,
@@ -839,7 +839,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0007384785478191516
+                "ShotNoise": 0.0006037959678941517
             },
             "Unsub": {
                 "Average": 0.6925435260793591,
@@ -849,7 +849,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00046999776876092834
+                "ShotNoise": 0.0002002920564985137
             }
         },
         "74Low": {
@@ -861,7 +861,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.001512166574518706
+                "ShotNoise": 0.0014015899769363929
             },
             "18O": {
                 "Average": 0.4740197297986105,
@@ -871,7 +871,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0007077563417142604
+                "ShotNoise": 0.00042275968775851234
             },
             "Unsub": {
                 "Average": 0.450162627414098,
@@ -881,7 +881,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0007203966515985579
+                "ShotNoise": 0.0004435967199961421
             }
         },
         "87": {
@@ -893,7 +893,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0010040950580391104
+                "ShotNoise": 0.0009349075019628777
             },
             "13C-34S": {
                 "Average": 0.06896645736912345,
@@ -903,7 +903,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0010197540931671048
+                "ShotNoise": 0.0009517056068863775
             },
             "34S": {
                 "Average": 0.47239404877130686,
@@ -913,7 +913,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0004572384374427871
+                "ShotNoise": 0.00027370082265682936
             },
             "36S": {
                 "Average": 0.38734379817197917,
@@ -923,7 +923,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0004901439642456771
+                "ShotNoise": 0.0003257088536321529
             }
         },
         "full": {
@@ -935,7 +935,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0009041941857263775
+                "ShotNoise": 0.0007936634644774756
             },
             "18O-34S": {
                 "Average": 0.48046729431562807,
@@ -945,7 +945,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0005377081835231999
+                "ShotNoise": 0.0003185351785483378
             },
             "36S": {
                 "Average": 0.3898630117466649,
@@ -955,7 +955,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0005783581993291547
+                "ShotNoise": 0.00038318765125753277
             }
         }
     },
@@ -969,7 +969,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0007261892092687565
+                "ShotNoise": 0.000690845593571073
             },
             "13C-13C": {
                 "Average": 0.0710762651090894,
@@ -979,7 +979,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0006142926866509707
+                "ShotNoise": 0.0005720772424865842
             },
             "13C-15N": {
                 "Average": 0.0150432998378263,
@@ -989,7 +989,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0012999408682897724
+                "ShotNoise": 0.0012805323609921594
             },
             "13C-18O": {
                 "Average": 0.00696839096273142,
@@ -999,7 +999,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0019021875197467065
+                "ShotNoise": 0.0018889770318292155
             },
             "18O": {
                 "Average": 0.45369909068924424,
@@ -1009,7 +1009,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00028325867575627043
+                "ShotNoise": 0.00017364430278411745
             },
             "Unsub": {
                 "Average": 0.403360591477296,
@@ -1019,7 +1019,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0002951684352619979
+                "ShotNoise": 0.0001924610913229023
             }
         },
         "104": {
@@ -1031,7 +1031,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0012555169922667446
+                "ShotNoise": 0.0012498773626759697
             },
             "13C-13C": {
                 "Average": 0.006566962144792001,
@@ -1041,7 +1041,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0010405824016067626
+                "ShotNoise": 0.0010337708829295793
             },
             "13C-13C-34S": {
                 "Average": 0.07829606534793399,
@@ -1051,7 +1051,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00031192320380457687
+                "ShotNoise": 0.0002883861802011605
             },
             "13C-34S": {
                 "Average": 0.056286167861019955,
@@ -1061,7 +1061,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00036410986620215513
+                "ShotNoise": 0.00034416057084601655
             },
             "13C-34S-D": {
                 "Average": 0.006171091298578415,
@@ -1071,7 +1071,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0010732379633698861
+                "ShotNoise": 0.00106663500311852
             },
             "34S": {
                 "Average": 0.4579533648086402,
@@ -1081,7 +1081,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0001499714846526069
+                "ShotNoise": 9.144369889834801e-05
             },
             "34S-15N": {
                 "Average": 0.0040833406806757315,
@@ -1091,7 +1091,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0013180108257064486
+                "ShotNoise": 0.0013126397222919543
             },
             "36S": {
                 "Average": 0.3771697964103133,
@@ -1101,7 +1101,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00016061109432729292
+                "ShotNoise": 0.00010801123775013049
             },
             "Unsub": {
                 "Average": 0.008971248218907447,
@@ -1111,7 +1111,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0008913844263670815
+                "ShotNoise": 0.0008834232844050893
             }
         },
         "133": {
@@ -1123,7 +1123,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.001071862167004562
+                "ShotNoise": 0.0010613641735821259
             },
             "13C-13C-34S": {
                 "Average": 0.12115299551680717,
@@ -1133,7 +1133,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0003218952956695192
+                "ShotNoise": 0.0002849947109721878
             },
             "13C-34S": {
                 "Average": 0.022356968024804896,
@@ -1143,7 +1143,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0007155574338243864
+                "ShotNoise": 0.0006997341245139435
             },
             "13C-34S-D": {
                 "Average": 0.00595433452929128,
@@ -1153,7 +1153,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.001375362258666819
+                "ShotNoise": 0.0013671966743936468
             },
             "18O-18O": {
                 "Average": 0.008254823131998122,
@@ -1163,7 +1163,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0011694788628190415
+                "ShotNoise": 0.00115986473973842
             },
             "18O-34S": {
                 "Average": 0.4517189628828336,
@@ -1173,7 +1173,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00018969949547537166
+                "ShotNoise": 0.00011658174167323207
             },
             "36S": {
                 "Average": 0.38072014562833945,
@@ -1183,7 +1183,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0002015143079747384
+                "ShotNoise": 0.00013495710513526652
             }
         },
         "56": {
@@ -1195,7 +1195,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0002916086620550012
+                "ShotNoise": 0.0002650444362062711
             },
             "13C-13C": {
                 "Average": 0.04386296826467757,
@@ -1205,7 +1205,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0004195154097070292
+                "ShotNoise": 0.00040150481984659763
             },
             "13C-15N": {
                 "Average": 0.012610011735415297,
@@ -1215,7 +1215,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0007707260226266353
+                "ShotNoise": 0.0007610726268446824
             },
             "13C-D": {
                 "Average": 0.002971539584279263,
@@ -1225,7 +1225,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0015802811098613709
+                "ShotNoise": 0.0015755955469482256
             },
             "15N": {
                 "Average": 0.008357891867157775,
@@ -1235,7 +1235,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.000944744225055687
+                "ShotNoise": 0.0009368855811434302
             },
             "Unsub": {
                 "Average": 0.8369694412375285,
@@ -1245,7 +1245,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00012738501327136064
+                "ShotNoise": 3.7945790076594734e-05
             }
         },
         "61": {
@@ -1257,7 +1257,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0013904867163388342
+                "ShotNoise": 0.0013772207070311183
             },
             "13C-34S": {
                 "Average": 0.08361805103265194,
@@ -1267,7 +1267,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0004877463540669196
+                "ShotNoise": 0.0004485310172843263
             },
             "34S": {
                 "Average": 0.5126267728836236,
@@ -1277,7 +1277,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0002327427069315071
+                "ShotNoise": 0.0001321088005787089
             },
             "36S": {
                 "Average": 0.3941655980843893,
@@ -1287,7 +1287,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00025482347126474755
+                "ShotNoise": 0.00016798383573414228
             }
         },
         "74High": {
@@ -1299,7 +1299,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0011722875837268888
+                "ShotNoise": 0.0010894876288450503
             },
             "13C-13C": {
                 "Average": 0.03263096124862596,
@@ -1309,7 +1309,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.001721424358324049
+                "ShotNoise": 0.0016661413313034245
             },
             "18O": {
                 "Average": 0.19969453668386752,
@@ -1319,7 +1319,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0007500761551792754
+                "ShotNoise": 0.0006126494536149586
             },
             "Unsub": {
                 "Average": 0.6945257950005488,
@@ -1329,7 +1329,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00047796184523436454
+                "ShotNoise": 0.0002029104234533588
             }
         },
         "74Low": {
@@ -1341,7 +1341,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0015882762991113076
+                "ShotNoise": 0.0014747491558167894
             },
             "18O": {
                 "Average": 0.47556005198587264,
@@ -1351,7 +1351,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0007344776509652284
+                "ShotNoise": 0.00043785944095225455
             },
             "Unsub": {
                 "Average": 0.4504139745733598,
@@ -1361,7 +1361,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0007482694788455902
+                "ShotNoise": 0.00046061989018655316
             }
         },
         "87": {
@@ -1373,7 +1373,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0010622674374687914
+                "ShotNoise": 0.000991905973839364
             },
             "13C-34S": {
                 "Average": 0.06800030491920549,
@@ -1383,7 +1383,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0010654973066286395
+                "ShotNoise": 0.0009953641859463248
             },
             "34S": {
                 "Average": 0.4737473972933535,
@@ -1393,7 +1393,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00047413307759355204
+                "ShotNoise": 0.00028331524403045754
             },
             "36S": {
                 "Average": 0.389801323623035,
@@ -1403,7 +1403,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0005075981795466788
+                "ShotNoise": 0.0003363350474018533
             }
         },
         "full": {
@@ -1415,7 +1415,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0008852773732657053
+                "ShotNoise": 0.0007755870655971397
             },
             "18O-34S": {
                 "Average": 0.4799007490238628,
@@ -1425,7 +1425,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.000530000018590255
+                "ShotNoise": 0.0003141962577928414
             },
             "36S": {
                 "Average": 0.3885556771956948,
@@ -1435,7 +1435,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0005705330127838811
+                "ShotNoise": 0.0003785857728198557
             }
         }
     },
@@ -1449,7 +1449,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.000684752357311203
+                "ShotNoise": 0.0006483954132493682
             },
             "13C-13C": {
                 "Average": 0.07054803633559485,
@@ -1459,7 +1459,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0006064191116841515
+                "ShotNoise": 0.0005650442107440486
             },
             "13C-15N": {
                 "Average": 0.014996974891236586,
@@ -1469,7 +1469,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.001280731472600044
+                "ShotNoise": 0.0012616671217036
             },
             "13C-18O": {
                 "Average": 0.007305135459084191,
@@ -1479,7 +1479,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.001827864663335822
+                "ShotNoise": 0.0018145578107493154
             },
             "18O": {
                 "Average": 0.45228827728324383,
@@ -1489,7 +1489,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0002789555934177123
+                "ShotNoise": 0.00017130979008392238
             },
             "Unsub": {
                 "Average": 0.4003602314642402,
@@ -1499,7 +1499,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00029114911305388536
+                "ShotNoise": 0.0001905219859009286
             }
         },
         "104": {
@@ -1511,7 +1511,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0012376667728731085
+                "ShotNoise": 0.0012320022040885506
             },
             "13C-13C": {
                 "Average": 0.006841373733428609,
@@ -1521,7 +1521,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0010146124021211682
+                "ShotNoise": 0.0010076947537538336
             },
             "13C-13C-34S": {
                 "Average": 0.08178732946664596,
@@ -1531,7 +1531,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00030416900190549683
+                "ShotNoise": 0.0002802305692195244
             },
             "13C-34S": {
                 "Average": 0.05737701869310282,
@@ -1541,7 +1541,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00035902948268111255
+                "ShotNoise": 0.0003389875508616501
             },
             "13C-34S-D": {
                 "Average": 0.006267776856468292,
@@ -1551,7 +1551,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0010597509833238017
+                "ShotNoise": 0.001053129876539773
             },
             "34S": {
                 "Average": 0.45529420454998687,
@@ -1561,7 +1561,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00014952528718790807
+                "ShotNoise": 9.147787554124173e-05
             },
             "34S-15N": {
                 "Average": 0.004068913358137706,
@@ -1571,7 +1571,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0013137954609735531
+                "ShotNoise": 0.0013084605089492092
             },
             "36S": {
                 "Average": 0.37481236718451805,
@@ -1581,7 +1581,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00016017930264780258
+                "ShotNoise": 0.0001080175874644905
             },
             "Unsub": {
                 "Average": 0.008964231906690448,
@@ -1591,7 +1591,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0008872884662115564
+                "ShotNoise": 0.0008793697814213135
             }
         },
         "133": {
@@ -1603,7 +1603,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0010481532117814797
+                "ShotNoise": 0.0010375866386849628
             },
             "13C-13C-34S": {
                 "Average": 0.12507301508991617,
@@ -1613,7 +1613,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00031483571034849115
+                "ShotNoise": 0.0002776371767619874
             },
             "13C-34S": {
                 "Average": 0.022686880521669506,
@@ -1623,7 +1623,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0007047846359533286
+                "ShotNoise": 0.0006889718865712838
             },
             "13C-34S-D": {
                 "Average": 0.005986859585274418,
@@ -1633,7 +1633,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0013607290449779833
+                "ShotNoise": 0.0013526065249200975
             },
             "18O-18O": {
                 "Average": 0.008190899799709753,
@@ -1643,7 +1643,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0011646084079558606
+                "ShotNoise": 0.00115510762325041
             },
             "18O-34S": {
                 "Average": 0.4493915711482983,
@@ -1653,7 +1653,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0001885236457430625
+                "ShotNoise": 0.00011619828920420358
             },
             "36S": {
                 "Average": 0.3785385173761519,
@@ -1663,7 +1663,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00020032483697243799
+                "ShotNoise": 0.00013450248219925854
             }
         },
         "56": {
@@ -1675,7 +1675,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0002777001858161198
+                "ShotNoise": 0.00025146672046248925
             },
             "13C-13C": {
                 "Average": 0.0435385535137788,
@@ -1685,7 +1685,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0004079111963445871
+                "ShotNoise": 0.0003905248550363018
             },
             "13C-15N": {
                 "Average": 0.012563297545340734,
@@ -1695,7 +1695,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0007481420768560134
+                "ShotNoise": 0.0007388062570527413
             },
             "13C-D": {
                 "Average": 0.002938240694184543,
@@ -1705,7 +1705,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.001539706884670116
+                "ShotNoise": 0.001535192303588839
             },
             "15N": {
                 "Average": 0.008761614211484515,
@@ -1715,7 +1715,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.000894189824142738
+                "ShotNoise": 0.0008863935694138766
             },
             "Unsub": {
                 "Average": 0.8332875727803208,
@@ -1725,7 +1725,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00012357294879160533
+                "ShotNoise": 3.726113217422365e-05
             }
         },
         "61": {
@@ -1737,7 +1737,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0012670513166044494
+                "ShotNoise": 0.0012536723873116658
             },
             "13C-34S": {
                 "Average": 0.08877724628357145,
@@ -1747,7 +1747,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0004547469806734653
+                "ShotNoise": 0.0004160171056943407
             },
             "34S": {
                 "Average": 0.5091287647748163,
@@ -1757,7 +1757,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00022356507093096477
+                "ShotNoise": 0.0001275019871963984
             },
             "36S": {
                 "Average": 0.3914754448870242,
@@ -1767,7 +1767,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0002448210796750801
+                "ShotNoise": 0.00016190360357921357
             }
         },
         "74High": {
@@ -1779,7 +1779,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.001131531654066115
+                "ShotNoise": 0.001048386987018175
             },
             "13C-13C": {
                 "Average": 0.032589242881263136,
@@ -1789,7 +1789,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0016945996108188976
+                "ShotNoise": 0.0016402497466492742
             },
             "18O": {
                 "Average": 0.19880408407852335,
@@ -1799,7 +1799,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0007392717824425157
+                "ShotNoise": 0.0006043791514531116
             },
             "Unsub": {
                 "Average": 0.6924053832237111,
@@ -1809,7 +1809,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00047063493367812927
+                "ShotNoise": 0.00020062061507648254
             }
         },
         "74Low": {
@@ -1821,7 +1821,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0015097325056703942
+                "ShotNoise": 0.0013994990241335357
             },
             "18O": {
                 "Average": 0.4738746924646368,
@@ -1831,7 +1831,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0007062014968970954
+                "ShotNoise": 0.0004219310774197723
             },
             "Unsub": {
                 "Average": 0.4504361513795251,
@@ -1841,7 +1841,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0007185535622104582
+                "ShotNoise": 0.0004422945869420634
             }
         },
         "87": {
@@ -1853,7 +1853,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0010034401270571053
+                "ShotNoise": 0.0009341732900690984
             },
             "13C-34S": {
                 "Average": 0.06904029252607764,
@@ -1863,7 +1863,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0010194580977843186
+                "ShotNoise": 0.0009513582187736467
             },
             "34S": {
                 "Average": 0.47211347002242365,
@@ -1873,7 +1873,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0004574328464182596
+                "ShotNoise": 0.00027392052911831067
             },
             "36S": {
                 "Average": 0.38741790218346656,
@@ -1883,7 +1883,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0004902096696592708
+                "ShotNoise": 0.0003257194613737344
             }
         },
         "full": {
@@ -1895,7 +1895,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0009102631906028685
+                "ShotNoise": 0.0007990846365416588
             },
             "18O-34S": {
                 "Average": 0.4807560989725257,
@@ -1905,7 +1905,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0005409862783507618
+                "ShotNoise": 0.0003203487686166581
             },
             "36S": {
                 "Average": 0.38966332055877734,
@@ -1915,7 +1915,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0005821133525317814
+                "ShotNoise": 0.00038576305601520643
             }
         }
     },
@@ -1929,7 +1929,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0007260309183183697
+                "ShotNoise": 0.0006907802540866789
             },
             "13C-13C": {
                 "Average": 0.07118219808561749,
@@ -1939,7 +1939,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0006129931949383553
+                "ShotNoise": 0.0005708039261625431
             },
             "13C-15N": {
                 "Average": 0.01503154344013318,
@@ -1949,7 +1949,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0012984861390761457
+                "ShotNoise": 0.0012791101275710067
             },
             "13C-18O": {
                 "Average": 0.007001520338851326,
@@ -1959,7 +1959,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0018951763525357872
+                "ShotNoise": 0.001881953738085156
             },
             "18O": {
                 "Average": 0.4535076670937551,
@@ -1969,7 +1969,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0002829047957817462
+                "ShotNoise": 0.00017346927266277746
             },
             "Unsub": {
                 "Average": 0.4035476304273687,
@@ -1979,7 +1979,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00029470965144479545
+                "ShotNoise": 0.0001921203886539747
             }
         },
         "104": {
@@ -1991,7 +1991,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0012578485692494982
+                "ShotNoise": 0.0012522163018214383
             },
             "13C-13C": {
                 "Average": 0.00655704391843216,
@@ -2001,7 +2001,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0010416864122346642
+                "ShotNoise": 0.0010348783623299297
             },
             "13C-13C-34S": {
                 "Average": 0.07831292596332942,
@@ -2011,7 +2011,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00031198000041178205
+                "ShotNoise": 0.00028843398558645175
             },
             "13C-34S": {
                 "Average": 0.056238545008646175,
@@ -2021,7 +2021,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00036435475158972985
+                "ShotNoise": 0.0003444082292721295
             },
             "13C-34S-D": {
                 "Average": 0.00618921905092059,
@@ -2031,7 +2031,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0010720107446648478
+                "ShotNoise": 0.0010653964896043312
             },
             "34S": {
                 "Average": 0.4579212605488927,
@@ -2041,7 +2041,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00015001632657957715
+                "ShotNoise": 9.147426755530916e-05
             },
             "34S-15N": {
                 "Average": 0.004074128060368652,
@@ -2051,7 +2051,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0013198265184481445
+                "ShotNoise": 0.0013144598442642896
             },
             "36S": {
                 "Average": 0.37727842729092553,
@@ -2061,7 +2061,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00016063969107066374
+                "ShotNoise": 0.0001080173769892059
             },
             "Unsub": {
                 "Average": 0.008940886063744494,
@@ -2071,7 +2071,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0008930907777835452
+                "ShotNoise": 0.0008851405429344923
             }
         },
         "133": {
@@ -2083,7 +2083,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0010748837474820424
+                "ShotNoise": 0.0010643789583573036
             },
             "13C-13C-34S": {
                 "Average": 0.12091999416163957,
@@ -2093,7 +2093,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0003227315168289321
+                "ShotNoise": 0.000285802603815015
             },
             "13C-34S": {
                 "Average": 0.02233160164017886,
@@ -2103,7 +2103,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0007171752061763897
+                "ShotNoise": 0.0007013328544613366
             },
             "13C-34S-D": {
                 "Average": 0.005954755463630513,
@@ -2113,7 +2113,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0013775928240856595
+                "ShotNoise": 0.0013694120947928868
             },
             "18O-18O": {
                 "Average": 0.00826729972421845,
@@ -2123,7 +2123,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0011705817416056542
+                "ShotNoise": 0.0011609431985128583
             },
             "18O-34S": {
                 "Average": 0.4518254970088597,
@@ -2133,7 +2133,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0001900136395612371
+                "ShotNoise": 0.0001167590665089733
             },
             "36S": {
                 "Average": 0.38087966521387323,
@@ -2143,7 +2143,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0002018345323881076
+                "ShotNoise": 0.00013514686402971095
             }
         },
         "56": {
@@ -2155,7 +2155,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0002915869139197425
+                "ShotNoise": 0.00026500541395909185
             },
             "13C-13C": {
                 "Average": 0.043782095094614525,
@@ -2165,7 +2165,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00041998376434854645
+                "ShotNoise": 0.00040198420786738095
             },
             "13C-15N": {
                 "Average": 0.012588291682472118,
@@ -2175,7 +2175,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0007716189773937544
+                "ShotNoise": 0.0007619716447037735
             },
             "13C-D": {
                 "Average": 0.002965703093755932,
@@ -2185,7 +2185,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0015822221069649483
+                "ShotNoise": 0.0015775397734532686
             },
             "15N": {
                 "Average": 0.008336773907088615,
@@ -2195,7 +2195,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0009462322720427981
+                "ShotNoise": 0.0009383818272503291
             },
             "Unsub": {
                 "Average": 0.8370222944257366,
@@ -2205,7 +2205,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00012741716572182721
+                "ShotNoise": 3.794832247904881e-05
             }
         },
         "61": {
@@ -2217,7 +2217,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0013915358983896977
+                "ShotNoise": 0.0013782766801084378
             },
             "13C-34S": {
                 "Average": 0.08351899223808955,
@@ -2227,7 +2227,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00048806947142237964
+                "ShotNoise": 0.00044887220827094504
             },
             "34S": {
                 "Average": 0.512599269847288,
@@ -2237,7 +2237,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00023277597265188165
+                "ShotNoise": 0.00013213290228986565
             },
             "36S": {
                 "Average": 0.3943045690201092,
@@ -2247,7 +2247,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0002548229361535417
+                "ShotNoise": 0.000167955884724012
             }
         },
         "74High": {
@@ -2259,7 +2259,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0011744294691240955
+                "ShotNoise": 0.001091485735306182
             },
             "13C-13C": {
                 "Average": 0.03287958316114242,
@@ -2269,7 +2269,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0017182674187178496
+                "ShotNoise": 0.0016626783978439948
             },
             "18O": {
                 "Average": 0.1994398801668243,
@@ -2279,7 +2279,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0007518033173586553
+                "ShotNoise": 0.0006142188212854202
             },
             "Unsub": {
                 "Average": 0.6945236917060249,
@@ -2289,7 +2289,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00047881219342329036
+                "ShotNoise": 0.00020326743221823443
             }
         },
         "74Low": {
@@ -2301,7 +2301,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0015921859292756695
+                "ShotNoise": 0.0014787455684513373
             },
             "18O": {
                 "Average": 0.47571572968606035,
@@ -2311,7 +2311,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0007350882899339439
+                "ShotNoise": 0.00043816345902990554
             },
             "Unsub": {
                 "Average": 0.4505177092260728,
@@ -2321,7 +2321,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0007488676775827818
+                "ShotNoise": 0.0004609069552081755
             }
         },
         "87": {
@@ -2333,7 +2333,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0010641175209067163
+                "ShotNoise": 0.0009936540768102876
             },
             "13C-34S": {
                 "Average": 0.06810731168098347,
@@ -2343,7 +2343,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0010664084460046141
+                "ShotNoise": 0.0009961070724430305
             },
             "34S": {
                 "Average": 0.4735815591563001,
@@ -2353,7 +2353,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00047495109431677616
+                "ShotNoise": 0.0002838676946285932
             },
             "36S": {
                 "Average": 0.38988408617328474,
@@ -2363,7 +2363,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.000508370088946847
+                "ShotNoise": 0.00033681222275457013
             }
         },
         "full": {
@@ -2375,7 +2375,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0008862628773028379
+                "ShotNoise": 0.0007764619857060086
             },
             "18O-34S": {
                 "Average": 0.48007749362535074,
@@ -2385,7 +2385,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0005305069322824995
+                "ShotNoise": 0.00031443430595467993
             },
             "36S": {
                 "Average": 0.38839170344219737,
@@ -2395,7 +2395,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0005712133518195387
+                "ShotNoise": 0.0003790989591891869
             }
         }
     },
@@ -2409,7 +2409,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0006855950108095274
+                "ShotNoise": 0.000649246745980335
             },
             "13C-13C": {
                 "Average": 0.07070090262397119,
@@ -2419,7 +2419,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.000606107379854713
+                "ShotNoise": 0.0005646653648254718
             },
             "13C-15N": {
                 "Average": 0.014911009280190795,
@@ -2429,7 +2429,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0012849636832473795
+                "ShotNoise": 0.0012659433184719646
             },
             "13C-18O": {
                 "Average": 0.0073362733258413755,
@@ -2439,7 +2439,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0018250700736516289
+                "ShotNoise": 0.001811728895850011
             },
             "18O": {
                 "Average": 0.45229033541699876,
@@ -2449,7 +2449,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00027909919965004107
+                "ShotNoise": 0.0001713977291694122
             },
             "Unsub": {
                 "Average": 0.40034165691694673,
@@ -2459,7 +2459,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0002913045900098084
+                "ShotNoise": 0.00019062838844180637
             }
         },
         "104": {
@@ -2471,7 +2471,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0012385215027435079
+                "ShotNoise": 0.0012328475203400172
             },
             "13C-13C": {
                 "Average": 0.006853228788971962,
@@ -2481,7 +2481,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0010149378791355097
+                "ShotNoise": 0.001008006147875388
             },
             "13C-13C-34S": {
                 "Average": 0.08177376101115823,
@@ -2491,7 +2491,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0003045528137140929
+                "ShotNoise": 0.0002805885100848985
             },
             "13C-34S": {
                 "Average": 0.057359690071208454,
@@ -2501,7 +2501,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00035949976808051997
+                "ShotNoise": 0.00033943715014777024
             },
             "13C-34S-D": {
                 "Average": 0.0062820736606762455,
@@ -2511,7 +2511,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.001059718484142135
+                "ShotNoise": 0.0010530815549058851
             },
             "34S": {
                 "Average": 0.45529597573095143,
@@ -2521,7 +2521,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00014970074162290497
+                "ShotNoise": 9.158497525762608e-05
             },
             "34S-15N": {
                 "Average": 0.0040511711321192,
@@ -2531,7 +2531,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0013181984908746487
+                "ShotNoise": 0.001312868903201951
             },
             "36S": {
                 "Average": 0.37483215470833253,
@@ -2541,7 +2541,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00016036431964167521
+                "ShotNoise": 0.00010813977374042171
             },
             "Unsub": {
                 "Average": 0.008959957833800556,
@@ -2551,7 +2551,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0008885595162200981
+                "ShotNoise": 0.0008806335841402978
             }
         },
         "133": {
@@ -2563,7 +2563,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0010515387503385704
+                "ShotNoise": 0.001040978770359995
             },
             "13C-13C-34S": {
                 "Average": 0.12510712130074267,
@@ -2573,7 +2573,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0003152109233095303
+                "ShotNoise": 0.0002779585995256331
             },
             "13C-34S": {
                 "Average": 0.022732015030818228,
@@ -2583,7 +2583,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.000705025838018108
+                "ShotNoise": 0.0006891766748445135
             },
             "13C-34S-D": {
                 "Average": 0.005982275165182165,
@@ -2593,7 +2593,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0013629964180830506
+                "ShotNoise": 0.001354866153014323
             },
             "18O-18O": {
                 "Average": 0.00819156508035738,
@@ -2603,7 +2603,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0011660691480810056
+                "ShotNoise": 0.00115655536615545
             },
             "18O-34S": {
                 "Average": 0.44928410465113217,
@@ -2613,7 +2613,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00018878571215968186
+                "ShotNoise": 0.00011637483401596308
             },
             "36S": {
                 "Average": 0.3786096826076683,
@@ -2623,7 +2623,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00020057456974641213
+                "ShotNoise": 0.0001346596261154881
             }
         },
         "56": {
@@ -2635,7 +2635,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0002778640628520045
+                "ShotNoise": 0.00025160673353987937
             },
             "13C-13C": {
                 "Average": 0.04348367997478516,
@@ -2645,7 +2645,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00040846868357735953
+                "ShotNoise": 0.0003910807798926025
             },
             "13C-15N": {
                 "Average": 0.012550641520885907,
@@ -2655,7 +2655,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0007490669176608589
+                "ShotNoise": 0.0007397288409085621
             },
             "13C-D": {
                 "Average": 0.002929132188763187,
@@ -2665,7 +2665,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.001543375799714873
+                "ShotNoise": 0.0015388652865288464
             },
             "15N": {
                 "Average": 0.008754217211670893,
@@ -2675,7 +2675,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0008952588986538329
+                "ShotNoise": 0.0008874604253468765
             },
             "Unsub": {
                 "Average": 0.8333380229555793,
@@ -2685,7 +2685,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0001236624560381823
+                "ShotNoise": 3.7281550013116626e-05
             }
         },
         "61": {
@@ -2697,7 +2697,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0012685500588287763
+                "ShotNoise": 0.0012551573018280324
             },
             "13C-34S": {
                 "Average": 0.0887658828173849,
@@ -2707,7 +2707,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00045527385873442755
+                "ShotNoise": 0.000416503165683852
             },
             "34S": {
                 "Average": 0.5090068205519266,
@@ -2717,7 +2717,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0002238304765499132
+                "ShotNoise": 0.0001276741274115313
             },
             "36S": {
                 "Average": 0.39161015630073365,
@@ -2727,7 +2727,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0002450628399409465
+                "ShotNoise": 0.00016203825504385266
             }
         },
         "74High": {
@@ -2739,7 +2739,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.001132463666016582
+                "ShotNoise": 0.0010491663880159523
             },
             "13C-13C": {
                 "Average": 0.032420662649976756,
@@ -2749,7 +2749,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0017011776654072706
+                "ShotNoise": 0.0016469006054329008
             },
             "18O": {
                 "Average": 0.19871019341995685,
@@ -2759,7 +2759,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0007403570207630866
+                "ShotNoise": 0.0006053136980838257
             },
             "Unsub": {
                 "Average": 0.6925791113056076,
@@ -2769,7 +2769,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00047121785884140637
+                "ShotNoise": 0.00020080444563256794
             }
         },
         "74Low": {
@@ -2781,7 +2781,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0015099848633416371
+                "ShotNoise": 0.001399355988223924
             },
             "18O": {
                 "Average": 0.47404963955297363,
@@ -2791,7 +2791,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0007073746028859423
+                "ShotNoise": 0.00042251831092313233
             },
             "Unsub": {
                 "Average": 0.4499784994695643,
@@ -2801,7 +2801,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0007201172556002243
+                "ShotNoise": 0.00044352199051511627
             }
         },
         "87": {
@@ -2813,7 +2813,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.001005211370401629
+                "ShotNoise": 0.0009359399058463748
             },
             "13C-34S": {
                 "Average": 0.06904326529696851,
@@ -2823,7 +2823,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0010204569692641012
+                "ShotNoise": 0.000952295140327133
             },
             "34S": {
                 "Average": 0.471855703504137,
@@ -2833,7 +2833,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0004579410124644348
+                "ShotNoise": 0.00027430563076238684
             },
             "36S": {
                 "Average": 0.38779679351787144,
@@ -2843,7 +2843,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.000490509660494331
+                "ShotNoise": 0.00032578111548900907
             }
         },
         "full": {
@@ -2855,7 +2855,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0009105472449748283
+                "ShotNoise": 0.0007990987250388989
             },
             "18O-34S": {
                 "Average": 0.4807880866523322,
@@ -2865,7 +2865,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.000541687553707968
+                "ShotNoise": 0.00032076142671722
             },
             "36S": {
                 "Average": 0.38935626215138947,
@@ -2875,7 +2875,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0005830297131841158
+                "ShotNoise": 0.00038650502387821054
             }
         }
     },
@@ -2889,7 +2889,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0007259616794839647
+                "ShotNoise": 0.0006906310102439002
             },
             "13C-13C": {
                 "Average": 0.07108081582048828,
@@ -2899,7 +2899,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0006140513264755097
+                "ShotNoise": 0.0005718477627635386
             },
             "13C-15N": {
                 "Average": 0.015004507328496468,
@@ -2909,7 +2909,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.001301062950490266
+                "ShotNoise": 0.0012816846856266047
             },
             "13C-18O": {
                 "Average": 0.0069728923609091555,
@@ -2919,7 +2919,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0019010526978441942
+                "ShotNoise": 0.0018878432647367793
             },
             "18O": {
                 "Average": 0.4537024479490952,
@@ -2929,7 +2929,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.000283163066125953
+                "ShotNoise": 0.0001735861579999464
             },
             "Unsub": {
                 "Average": 0.4033917266444595,
@@ -2939,7 +2939,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00029506059007126093
+                "ShotNoise": 0.00019238394955019554
             }
         },
         "104": {
@@ -2951,7 +2951,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0012557587992215727
+                "ShotNoise": 0.0012501108098469547
             },
             "13C-13C": {
                 "Average": 0.00657484096391245,
@@ -2961,7 +2961,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0010409012248058986
+                "ShotNoise": 0.0010340803812452024
             },
             "13C-13C-34S": {
                 "Average": 0.0783480411008779,
@@ -2971,7 +2971,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00031208771255204266
+                "ShotNoise": 0.00028852316267462757
             },
             "13C-34S": {
                 "Average": 0.05632151932096535,
@@ -2981,7 +2981,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0003643027275647116
+                "ShotNoise": 0.00034433029547934304
             },
             "13C-34S-D": {
                 "Average": 0.006170706274006329,
@@ -2991,7 +2991,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0010742281220182599
+                "ShotNoise": 0.0010676202195578168
             },
             "34S": {
                 "Average": 0.4578042672922717,
@@ -3001,7 +3001,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00015011334418597673
+                "ShotNoise": 9.154720736593059e-05
             },
             "34S-15N": {
                 "Average": 0.004073563160993987,
@@ -3011,7 +3011,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.001320764307578828
+                "ShotNoise": 0.0013153954657242756
             },
             "36S": {
                 "Average": 0.3772288194978719,
@@ -3021,7 +3021,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00016073654208935352
+                "ShotNoise": 0.00010808844080957824
             },
             "Unsub": {
                 "Average": 0.008970813382000732,
@@ -3031,7 +3031,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0008921238708446064
+                "ShotNoise": 0.0008841560246950575
             }
         },
         "133": {
@@ -3043,7 +3043,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.001074638504878408
+                "ShotNoise": 0.0010641498734602643
             },
             "13C-13C-34S": {
                 "Average": 0.12096445979782641,
@@ -3053,7 +3053,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00032239393555470616
+                "ShotNoise": 0.0002854906070270073
             },
             "13C-34S": {
                 "Average": 0.02238501935355394,
@@ -3063,7 +3063,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0007157320157270485
+                "ShotNoise": 0.0006998852444186124
             },
             "13C-34S-D": {
                 "Average": 0.005936621816748066,
@@ -3073,7 +3073,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0013785726704896722
+                "ShotNoise": 0.0013704122171227253
             },
             "18O-18O": {
                 "Average": 0.008230692504713217,
@@ -3083,7 +3083,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0011721580494546385
+                "ShotNoise": 0.0011625495817037224
             },
             "18O-34S": {
                 "Average": 0.4516534917759056,
@@ -3093,7 +3093,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00018987135256507434
+                "ShotNoise": 0.00011669690459942726
             },
             "36S": {
                 "Average": 0.38102207484918965,
@@ -3103,7 +3103,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0002016291914605007
+                "ShotNoise": 0.0001349865469860323
             }
         },
         "56": {
@@ -3115,7 +3115,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00029162164589915793
+                "ShotNoise": 0.00026505539585163266
             },
             "13C-13C": {
                 "Average": 0.0438186372447298,
@@ -3125,7 +3125,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0004197342056035057
+                "ShotNoise": 0.0004017312308829597
             },
             "13C-15N": {
                 "Average": 0.012564007810077533,
@@ -3135,7 +3135,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0007721948645806515
+                "ShotNoise": 0.0007625589074936194
             },
             "13C-D": {
                 "Average": 0.0029483211392761174,
@@ -3145,7 +3145,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0015865546323493309
+                "ShotNoise": 0.001581887094562141
             },
             "15N": {
                 "Average": 0.008343454372761848,
@@ -3155,7 +3155,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0009455978644204729
+                "ShotNoise": 0.0009377454343848819
             },
             "Unsub": {
                 "Average": 0.8370953006585607,
@@ -3165,7 +3165,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0001273874927093063
+                "ShotNoise": 3.793088203423983e-05
             }
         },
         "61": {
@@ -3177,7 +3177,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.001386600487764757
+                "ShotNoise": 0.0013733656608079614
             },
             "13C-34S": {
                 "Average": 0.08361139414650835,
@@ -3187,7 +3187,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0004865089566913409
+                "ShotNoise": 0.0004473961226451602
             },
             "34S": {
                 "Average": 0.5124036563886666,
@@ -3197,7 +3197,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00023217831338002255
+                "ShotNoise": 0.00013182979489105717
             },
             "36S": {
                 "Average": 0.3943918966714902,
@@ -3207,7 +3207,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0002541135798745926
+                "ShotNoise": 0.00016746951093768442
             }
         },
         "74High": {
@@ -3219,7 +3219,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.001174485264272545
+                "ShotNoise": 0.0010918011052414149
             },
             "13C-13C": {
                 "Average": 0.03275112288389406,
@@ -3229,7 +3229,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0017188277965591871
+                "ShotNoise": 0.0016634250844680492
             },
             "18O": {
                 "Average": 0.1992836970733239,
@@ -3239,7 +3239,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.000750907910558716
+                "ShotNoise": 0.0006135769776912117
             },
             "Unsub": {
                 "Average": 0.6950613049308709,
@@ -3249,7 +3249,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.000477999384581783
+                "ShotNoise": 0.00020272500850558248
             }
         },
         "74Low": {
@@ -3261,7 +3261,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0015843630921393984
+                "ShotNoise": 0.001471171141995078
             },
             "18O": {
                 "Average": 0.47522085108590856,
@@ -3271,7 +3271,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0007326622885693862
+                "ShotNoise": 0.0004369578359490954
             },
             "Unsub": {
                 "Average": 0.4507746502309588,
@@ -3281,7 +3281,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0007460457169327718
+                "ShotNoise": 0.00045904502291095557
             }
         },
         "87": {
@@ -3293,7 +3293,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0010631531527244414
+                "ShotNoise": 0.000992681452627407
             },
             "13C-34S": {
                 "Average": 0.06797392777026467,
@@ -3303,7 +3303,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0010669932664895668
+                "ShotNoise": 0.0009967930933632188
             },
             "34S": {
                 "Average": 0.47357516227340135,
@@ -3313,7 +3313,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.00047476205509165383
+                "ShotNoise": 0.00028376195868613124
             },
             "36S": {
                 "Average": 0.38995720026590075,
@@ -3323,7 +3323,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0005081197156286156
+                "ShotNoise": 0.0003366117728972716
             }
         },
         "full": {
@@ -3335,7 +3335,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0008895857446411586
+                "ShotNoise": 0.0007795078921432809
             },
             "18O-34S": {
                 "Average": 0.48033495816589133,
@@ -3345,7 +3345,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0005320964598078728
+                "ShotNoise": 0.0003152719451282772
             },
             "36S": {
                 "Average": 0.38831712957572717,
@@ -3355,7 +3355,7 @@
                 "TICVar": 0,
                 "TIC*ITVar": 0,
                 "TIC*ITMean": 0,
-                "ShotNoise": 0.0005730728223095082
+                "ShotNoise": 0.0003803711562601475
             }
         }
     }

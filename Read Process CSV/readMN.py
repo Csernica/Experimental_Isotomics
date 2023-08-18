@@ -8,6 +8,8 @@ cwd = Path().resolve()
 
 import dataScreen
 import DataAnalyzerWithPeakInteg
+import pickle
+import copy
 
 #Folder with FT Statistic-ified files. All the files need to be processed using the same metrics.
 toRun = ['M1','M2','M3','M4']
@@ -21,6 +23,7 @@ mostAbundantDict = {'M1':['13C','13C','13C','13C','13C','Unsub','Unsub','13C'],
                     'M3':['13C-34S','13C-34S','13C','34S','13C-18O','13C','34S','Unsub'],
                     'M4': ['36S','18O-34S','36S','18O','36S','13C','Unsub','34S','13C']}
  
+MNResults = {}
 for experiment in toRun:
     folderPath = str(cwd) + '/' + experiment
 
@@ -79,3 +82,8 @@ for experiment in toRun:
 
     with open(str(cwd) + '/Read Process CSV/' + experiment + 'Results.json', 'w', encoding='utf-8') as f:
         json.dump(sampleOutputDict, f, ensure_ascii=False, indent=4)
+
+    MNResults[experiment] = copy.deepcopy(mergedDict)
+
+with open('MNResults.pickle', 'wb') as f:
+    pickle.dump(MNResults, f)

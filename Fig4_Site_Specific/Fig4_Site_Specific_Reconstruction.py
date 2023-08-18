@@ -22,7 +22,6 @@ for MNKey in ['M1','M2','M3','M4']:
     with open(str(cwd) + '/Read Process CSV/' + MNKey + 'ProcessedResults.json') as f:
         MNResults[MNKey] = json.load(f)
 
-
     if MNKey == 'M1':
         for idx, replicates in enumerate(MNResults[MNKey]['Mean']):
             siteName = siteNames[idx]
@@ -40,6 +39,7 @@ toPlot = ['Cmethyl','Cgamma','Calphabeta', 'Ccarboxyl', 'Ssulfur',
 'Namine',
 '13C Cmethyl   |   13C Cgamma', '13C Cmethyl   |   13C Calphabeta', '18O Ocarboxyl', 
 '34S Ssulfur', 
+'13C Ccarboxyl   |   34S Ssulfur',
 '13C Calphabeta   |   34S Ssulfur', 
 '18O Ocarboxyl   |   33S Ssulfur', 
 '34S Ssulfur   |   15N Namine', 
@@ -107,17 +107,19 @@ subParams = {'Cmethyl':{'NiceLabel':'$^{13}C_{methyl}$',
 
 for axIdx, cAx in enumerate(axes):
     for subKey in toPlot:
+        
         thisParams = subParams[subKey]
         AE = AllAE[subKey]
+
         loc = len(toPlot) - (toPlot.index(subKey)+1)
         if 'legend' in thisParams and axIdx == 0:
-            cAx.errorbar(AllER[subKey]['ER'], loc, xerr = AE['AE Error'][1], yerr = None,linestyle = 'None',
+            cAx.errorbar(AllER[subKey]['ER'], loc, xerr = np.array(AE['AE Error']).mean(), yerr = None,linestyle = 'None',
         marker=thisParams['marker'], mfc=thisParams['mfc'],
             mec=thisParams['mec'], ms=thisParams['ms'], mew=thisParams['mew'], ecolor = thisParams['ecolor'],
             label = thisParams['legend'])
 
         else:
-            cAx.errorbar(AllER[subKey]['ER'], loc, xerr = AE['AE Error'][1], yerr = None,linestyle = "None",
+            cAx.errorbar(AllER[subKey]['ER'], loc, xerr = np.array(AE['AE Error']).mean(), yerr = None,linestyle = "None",
         marker=thisParams['marker'], mfc=thisParams['mfc'],
             mec=thisParams['mec'], ms=thisParams['ms'], mew=thisParams['mew'], ecolor = thisParams['ecolor'])
 
@@ -171,3 +173,40 @@ leg = fig.legend(handles, labels,bbox_to_anchor=(0.92,0.57), loc='upper left')
 leg.get_frame().set_edgecolor('k')
 
 plt.savefig(str(cwd) + '/Fig4_Site_Specific/Fig4_SiteSpecificReconstruction.jpeg', bbox_inches = 'tight', dpi = 1000)
+
+#Second plot for H sites
+fig, ax = plt.subplots(nrows = 1, ncols = 1, figsize = (3,2), dpi = 300)
+toPlot = ['Hmethyl','Hgamma','Halphabeta','Hamine']
+
+ytickLabels = []
+
+for subKey in toPlot:
+    thisParams = subParams[subKey]
+    AE = AllAE[subKey]
+    loc = len(toPlot) - (toPlot.index(subKey)+1)
+    if 'legend' in thisParams:
+        ax.errorbar(AllER[subKey]['ER'], loc, xerr = np.array(AE['AE Error']).mean(), yerr = None,linestyle = 'None',
+    marker=thisParams['marker'], mfc=thisParams['mfc'],
+        mec=thisParams['mec'], ms=thisParams['ms'], mew=thisParams['mew'], ecolor = thisParams['ecolor'],
+        label = thisParams['legend'])
+
+    else:
+        ax.errorbar(AllER[subKey]['ER'], loc, xerr = np.array(AE['AE Error']).mean(), yerr = None,linestyle = "None",
+    marker=thisParams['marker'], mfc=thisParams['mfc'],
+        mec=thisParams['mec'], ms=thisParams['ms'], mew=thisParams['mew'], ecolor = thisParams['ecolor'])
+
+    ytickLabels.append(thisParams['NiceLabel'])
+
+ytick = list(range(len(toPlot)))
+ytick.reverse()
+ax.set_yticks(ytick)
+ax.set_yticklabels(ytickLabels, fontsize = 12)
+
+ax.set_xlabel("$\delta_{STD}$")
+ax.set_xlim(-50,100)
+ax.set_ylim(-0.5,3.5)
+ylim = ax.get_ylim()
+ax.vlines(0,ylim[0]-1,ylim[1]+1,linestyle = '--',color = 'k',label = 'Predicted Unlabeled Enrichment')
+ax.set_ylim(ylim)
+
+plt.savefig(str(cwd) + '/Fig4_Site_Specific/Fig4_SiteSpecificReconstructionB.jpeg', bbox_inches = 'tight', dpi = 1000)

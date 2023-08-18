@@ -77,7 +77,7 @@ toRun = ['Generate Predictions','M1','M2','M3','M4']
 (1) Precalculate the isotopologues of methionine and select only the ones we need
 '''
 deltas = [0] * 13
-precalc = True
+precalc = False
 if precalc:
     #precalculate isotopologues of interest
     preCalcMet = metTest.initializeMethionine(deltas, fragSubset, printHeavy = False)
@@ -123,15 +123,14 @@ for MNKey, MNData in withoutCutoff.items():
 '''
 3) Generate a forward model of the sample and standard, using the forbidden peaks
 '''
-deltasSmp = [41.05,-23.7,-24.0,-24.3,0,2.215,0,0,0,0,0,0,0]
-smpMethionineFM = metTest.initializeMethionine(deltasSmp, fragSubset)
+deltasStd = [-53.9,-23.7,-24.0,-24.3,0,2.215,0,0,0,0,0,0,0]
+smpMethionineFM = metTest.initializeMethionine(deltasStd, fragSubset)
     
 predictedMeasurementSmpExp, MNDictSmp, fractionationFactors = metTest.simulateMeasurement(smpMethionineFM, overrideIsoDict=overrideIsoDict,
                                                 abundanceThreshold = 0.00,
                                                 massThreshold = 4,
                                                 calcFF = False,
                                                 omitMeasurements = forbiddenPeaks)
-
 
 '''
 4) Solve the (analytically solved) M+1 problem
@@ -147,19 +146,8 @@ if 'M1' in toRun:
 
     replicateDataKeys = list(replicateData.keys())
 
-    #Compute the U^13C value using all carbon sites
-    carboxyl = op.deltaToConcentration('13C',deltasSmp[3])
-    alpha = op.deltaToConcentration('13C',deltasSmp[2])
-    beta = op.deltaToConcentration('13C',deltasSmp[2])
-    gamma = op.deltaToConcentration('13C',deltasSmp[1])
-    methyl = op.deltaToConcentration('13C',deltasSmp[0])
-
-    totalM1Conc = carboxyl[1] + alpha[1] + beta[1] + gamma[1] + methyl[1]
-    totalM0Conc = 5 - totalM1Conc
-    totalRatio = totalM1Conc / totalM0Conc
-
-    #Get U^13C
-    U13CAppx = totalRatio * 5
+    R13C = op.deltaToConcentration('13C',-11)
+    U13CAppx = 5*R13C[1] / R13C[0]
 
     #Run through the M+1 algorithm
     fullResults = {}
@@ -215,15 +203,15 @@ if 'M1' in toRun:
                                                 'Error':combinedErr}
 
         processSample = replicateData[replicateDataKeys[smpFileIdx]]
-        UValuesSmp = {'13C':{'Observed': U13CAppx, 'Error': U13CAppx * 0.001},
-                    '33S':{'Observed':0.007901812549, 'Error':0.007901812549 * 0.004}}
+        UValuesSmp = {'13C':{'Observed': U13CAppx, 'Error': U13CAppx * 0.0001},
+                    '33S':{'Observed':0.007901812549, 'Error':0.007901812549 * 0.0004 * 0.515}}
 
         isotopologuesDict = fas.isotopologueDataFrame(MNDict, stdMethionine['molecularDataFrame'])
         OValueCorrection = ss.OValueCorrectTheoretical(withoutCutoff, 
                                                     processSample,
                                                     massThreshold = 1)
 
-        M1Results = ss.M1MonteCarlo(processStandard, processSample, OValueCorrection, isotopologuesDict, stdMethionine['fragmentationDictionary'], experimentalOCorrectList = [],  N = 1000, GJ = False, debugMatrix = False,abundanceCorrect = True,perturbTheoryOAmt = 0)
+        M1Results = ss.M1MonteCarlo(processStandard, processSample, OValueCorrection, isotopologuesDict, stdMethionine['fragmentationDictionary'], experimentalOCorrectList = [],  N = 1000, GJ = False, debugMatrix = False,abundanceCorrect = True,perturbTheoryOAmt = 0.0005)
 
         processedResults = ss.processM1MCResults(M1Results, UValuesSmp, isotopologuesDict, stdMethionine['molecularDataFrame'], GJ = False,UMNSub = ['13C'])
 
@@ -247,7 +235,7 @@ if 'M1' in toRun:
 
 Conc34 = op.deltaToConcentration('34S',4.3)
 U34SAppx = Conc34[2] / Conc34[0]
-U34SAppxError = U34SAppx * 0.004
+U34SAppxError = U34SAppx * 0.0004
 
 MNKeyParams = {'M2':{'fileName':'M2Results.json',
                      'U Value to Use':'34S',
@@ -257,12 +245,12 @@ MNKeyParams = {'M2':{'fileName':'M2Results.json',
                 'M3':{'fileName':'M3Results.json',
                      'U Value to Use':'34S15N',
                      'U Value':0.00016303994459899808,
-                     'U Value Error':0.00016303994459899808 * 0.002},
+                     'U Value Error':0.00016303994459899808 * 0.000412},
 
                 'M4':{'fileName':'M4Results.json',
                      'U Value to Use':'36S',
                      'U Value':0.00010613428277475725,
-                     'U Value Error':0.00010613428277475725 * 0.004}}
+                     'U Value Error':0.00010613428277475725 * 0.0004*1.9}}
 
 for currentMNKey, currentMNParams in MNKeyParams.items():
     if currentMNKey in toRun:
@@ -349,7 +337,7 @@ for currentMNKey, currentMNParams in MNKeyParams.items():
 
                 Isotopologues = isotopologuesDict[MNKey]
                 results, comp, GJSol, meas = ss.MonteCarloMN(MNKey, Isotopologues, processStandard, processSample, 
-                                                    OCorrection, stdMethionine['fragmentationDictionary'], N = 1000,
+                                                    OCorrection, stdMethionine['fragmentationDictionary'], N = 100,
                                                     perturbTheoryOAmt = 0.001,
                                                     abundanceCorrect = True)
 

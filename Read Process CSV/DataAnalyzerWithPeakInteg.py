@@ -120,43 +120,24 @@ def calculate_Counts_And_ShotNoise(peakDF,resolution=120000,CN=4.4,z=1,Microscan
 
     peakDF['counts'] = (peakDF['absIntensity'] /
                   peakDF['peakNoise']) * (CN/z) *(resolution/peakDF['ftRes'])**(0.5) * Microscans**(0.5)
+                  
     return peakDF
 
-def calc_Append_Ratios(singleDf, allBelowOne = True, isotopeList = ['UnSub', '15N',  '13C'], debug = True):
+def calc_Append_Ratios(singleDf, fragmentMostAbundant = 'Unsub',  isotopeList = ['Unsub', '15N',  '13C'], debug = True):
     '''
     Calculates both 15N and 13C ratios, writes them such that they are < 1, and adds them to the dataframe.
     Inputs:                               
             singleDF: An individual pandas dataframe, consisting of multiple peaks from FTStat combined into one dataframe by the _combinedSubstituted function.
-            allBelowOne: if True, outputs ratios as 'Sub/unSub' or 'unSub/Sub', whichever is below 1. If false, outputs
-            all as 'sub/unSub'. 
             isotopeList: A list of isotopes corresponding to the peaks extracted by FTStat for this fragment, in the order they were extracted. 
             debug: Tim 20210330: Added to allow user to suppress print commands
 
     Outputs:
             The dataframe with ratios added. It computes all ratios, because why not. 
     '''
+    for numerator in isotopeList:
+        if numerator != fragmentMostAbundant:
+            singleDf[numerator + '/' + fragmentMostAbundant] = singleDf['counts' + numerator] / singleDf['counts' + fragmentMostAbundant]
 
-    if allBelowOne:
-        for i in range(len(isotopeList)):
-            for j in range(len(isotopeList)):
-                if j>i:
-                    #determine which has more counts, set ratio accordingly
-                    if singleDf['counts' + isotopeList[i]].sum() <= singleDf['counts' + isotopeList[j]].sum():
-                        singleDf[isotopeList[i] + '/' + isotopeList[j]] = singleDf['counts' + isotopeList[i]] / singleDf['counts' + isotopeList[j]]
-                    
-
-                    else:
-                        singleDf[isotopeList[j] + '/' + isotopeList[i]] = singleDf['counts' + isotopeList[j]] / singleDf['counts' + isotopeList[i]]
-    else:
-        for i in range(len(isotopeList)):
-            for j in range(len(isotopeList)):
-                if j>i:
-                    singleDf[isotopeList[i] + '/' + isotopeList[j]] = singleDf['counts' + isotopeList[i]] / singleDf['counts' + isotopeList[j]]
-
-                    #output timing of maximum peak to console for debugging
-                    if debug:
-                        print(str(isotopeList[i]) + "timing: " + str(singleDf[['counts' + isotopeList[i]]].idxmax()))
-                        print(str(isotopeList[j]) + "timing: " + str(singleDf[['counts' + isotopeList[j]]].idxmax()))
     return singleDf
 
 def calc_MNRelAbundance(df, isotopeList = ['13C', '15N', 'UnSub']):
@@ -170,7 +151,7 @@ def calc_MNRelAbundance(df, isotopeList = ['13C', '15N', 'UnSub']):
     return df
 
 def combine_Substituted_Peaks(peakDF, cullOn = [], cullZeroScansOn = False, \
-                            cullByTime = False, cullTimes = [], cullAmount = 3, fragmentIsotopeList = [['13C','15N','UnSub']], \
+                            cullByTime = False, cullTimes = [], cullAmount = 3, fragmentIsotopeList = [['13C','15N','Unsub']], fragmentMostAbundant = ['Unsub'], \
                             NL_over_TIC = 0.10, debug = True, MNRelativeAbundance = False, byScanNumber = False,
                              Microscans = 1):
     '''
@@ -205,6 +186,7 @@ def combine_Substituted_Peaks(peakDF, cullOn = [], cullZeroScansOn = False, \
     thisTimeRange = []
 
     for fIdx, thisIsotopeList in enumerate(fragmentIsotopeList):
+        thisMostAbundant = fragmentMostAbundant[fIdx]
         #First substitution, keep track of TIC*IT etc from here
         df1 = peakDF[peakIndex].copy()
         sub = thisIsotopeList[0]
@@ -258,7 +240,7 @@ def combine_Substituted_Peaks(peakDF, cullOn = [], cullZeroScansOn = False, \
             df1= cull_By_Time(df1, thisTimeRange, byScanNumber = byScanNumber)
 
         #Calculates ratio values and adds them to the dataframe. Weighted averages will be calculated in the next step
-        df1 = calc_Append_Ratios(df1, isotopeList = thisIsotopeList, debug = debug)
+        df1 = calc_Append_Ratios(df1, isotopeList = thisIsotopeList, fragmentMostAbundant = thisMostAbundant, debug = debug)
         
         if MNRelativeAbundance:
             df1 = calc_MNRelAbundance(df1, isotopeList = thisIsotopeList)
@@ -318,6 +300,14 @@ def cull_By_Time(df, timeFrame = (0,0), byScanNumber = False):
             df = df[df['scanNumber'].between(timeFrame[0], timeFrame[1], inclusive='both')]
     return df
     
+def SNMNRelAbund(A,B):
+    '''
+    Shot noise calculation for M+N Relative abundances. Inputs are: A (counts of beam of interest); B (counts of all other beams).
+    '''
+    out = B.sum() / (A.sum() + B.sum()) * np.sqrt(1/A.sum() + 1/B.sum())
+
+    return out
+
 def output_Raw_File_MNRelAbundance(df, massStr = None, isotopeList = ['13C','15N','Unsub']):
     #Initialize output dictionary 
     rtnDict = {}
@@ -339,14 +329,15 @@ def output_Raw_File_MNRelAbundance(df, massStr = None, isotopeList = ['13C','15N
         rtnDict[massStr][sub]['TIC*ITVar'] = 0
         rtnDict[massStr][sub]['TIC*ITMean'] = 0
                         
-        a = df['counts' + sub].sum()
-        b = df['total Counts'].sum()
-        shotNoiseByQuad = np.power((1./a + 1./b), 0.5)
-        rtnDict[massStr][sub]['ShotNoiseLimit by Quadrature'] = shotNoiseByQuad
+
+        a = df['counts' + sub]
+        b = df['total Counts'] - a 
+        SN = SNMNRelAbund(a,b)
+        rtnDict[massStr][sub]['ShotNoiseLimit by Quadrature'] = SN
         
     return rtnDict        
                                               
-def calc_Raw_File_Output(df, isotopeList = ['13C','15N','UnSub'],massStr = None, omitRatios = [], debug = True, MNRelativeAbundance = False):
+def calc_Raw_File_Output(df, isotopeList, mostAbundant,massStr = None, omitRatios = [], debug = True, MNRelativeAbundance = False):
     '''
     Tim 20210330: Changed this function to take a single fragment. Defined a new function to iterate through this and automatically
     calculate omitRatios (useful for M+N with many isotopes observed where omitRatios may be very long)
@@ -371,42 +362,31 @@ def calc_Raw_File_Output(df, isotopeList = ['13C','15N','UnSub'],massStr = None,
       
     #Adds the peak mass to the output dictionary
     key = df.keys()[0]
+    keys = df.keys()
     if massStr == None:
         massStr = str(round(df[key].median(),1))
         
     rtnDict[massStr] = {}
         
-    for i in range(len(isotopeList)):
-        for j in range(len(isotopeList)):
-            if j>i:
-                if isotopeList[i] + '/' + isotopeList[j] in df:
-                    header = isotopeList[i] + '/' + isotopeList[j]
-                else:
-                    try:
-                        header = isotopeList[j] + '/' + isotopeList[i]
-                    except:
-                        raise Exception('Sorry, cannot find ratios for your input isotopeList ' + header)
+    for numerator in isotopeList:
+        if numerator != mostAbundant:
+            header = numerator + '/' + mostAbundant
 
-                if header in omitRatios:
-                    if debug == True:
-                        print("Ratios omitted:" + header)
-                    continue
-                else:
-                    #perform calculations and add them to the dictionary     
-                    rtnDict[massStr][header] = {}
-                    rtnDict[massStr][header]['Ratio'] = np.mean(df[header])
-                    rtnDict[massStr][header]['StDev'] = np.std(df[header])
-                    rtnDict[massStr][header]['StError'] = rtnDict[massStr][header]['StDev'] / np.power(len(df),0.5)
-                    rtnDict[massStr][header]['RelStError'] = rtnDict[massStr][header]['StError'] / rtnDict[massStr][header]['Ratio']
-                    
-                    a = df['counts' + isotopeList[i]].sum()
-                    b = df['counts' + isotopeList[j]].sum()
-                    shotNoiseByQuad = np.power((1./a + 1./b), 0.5)
-                    rtnDict[massStr][header]['ShotNoiseLimit by Quadrature'] = shotNoiseByQuad
+            #perform calculations and add them to the dictionary     
+            rtnDict[massStr][header] = {}
+            rtnDict[massStr][header]['Ratio'] = np.mean(df[header])
+            rtnDict[massStr][header]['StDev'] = np.std(df[header])
+            rtnDict[massStr][header]['StError'] = rtnDict[massStr][header]['StDev'] / np.power(len(df),0.5)
+            rtnDict[massStr][header]['RelStError'] = rtnDict[massStr][header]['StError'] / rtnDict[massStr][header]['Ratio']
+            
+            a = df['counts' + numerator].sum()
+            b = df['counts' + mostAbundant].sum()
+            shotNoiseByQuad = np.power((1./a + 1./b), 0.5)
+            rtnDict[massStr][header]['ShotNoiseLimit by Quadrature'] = shotNoiseByQuad
 
-                    rtnDict[massStr][header]['TICVar'] = 0
-                    rtnDict[massStr][header]['TIC*ITMean'] = 0
-                    rtnDict[massStr][header]['TIC*ITVar'] = 0
+            rtnDict[massStr][header]['TICVar'] = 0
+            rtnDict[massStr][header]['TIC*ITMean'] = 0
+            rtnDict[massStr][header]['TIC*ITVar'] = 0
                         
     return rtnDict
 
@@ -441,13 +421,7 @@ def calc_Output_Dict(Merged, fragmentIsotopeList, fragmentMostAbundant, debug = 
         for fIdx, fragment in enumerate(fragmentIsotopeList):
             mostAbundant = fragmentMostAbundant[fIdx]
 
-            perms = []
-            for x in fragment:
-                for y in fragment:
-                    perms.append(x + '/' + y)
-
-            omitRatios = [x for x in perms if mostAbundant not in x.split('/')]
-            output = calc_Raw_File_Output(Merged[fIdx],isotopeList = fragment, massStr = massStrList[fIdx], omitRatios = omitRatios, debug = debug)
+            output = calc_Raw_File_Output(Merged[fIdx],fragment, mostAbundant, massStr = massStrList[fIdx], debug = debug)
 
             fragKey = list(output.keys())[0]
             outputDict[fragKey] = output[fragKey]
@@ -529,6 +503,7 @@ def calc_Folder_Output(folderPath, cullOn=None, cullAmount=2,\
                                                  cullTimes=cullTimes, 
                                                  cullAmount=cullAmount, 
                                                  fragmentIsotopeList = thisFragmentIsotopeList, 
+                                                 fragmentMostAbundant = fragmentMostAbundant,
                                                  NL_over_TIC=NL_over_TIC, 
                                                  debug = False, 
                                                  MNRelativeAbundance = MNRelativeAbundance,
